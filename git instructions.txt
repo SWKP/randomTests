@@ -15,3 +15,6 @@ GIT BRANCHING:
 git branch MyBranch - creates a seperate branch
 git checkout MyBranch - switches to MyBranch
 git merge MyBranch - merges MyBranch to master branch !WHEN CURRENT DIR! is in master branch
+
+GIT MERGE CONFLICTS:
+git mergetool - tool used for fixing merge conflicts
