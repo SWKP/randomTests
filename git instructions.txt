@@ -5,6 +5,7 @@ git status - check the status of the current project using git
 git add <filename> - add a single file to the commit
 git add . - adds ALL files to the commit
 git add *.html - only adds files with .html extensions
+git commit -m 'name of message'
 
 ADDING FILETYPES TO IGNORE LIST:
 
