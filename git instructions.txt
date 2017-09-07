@@ -1,0 +1,12 @@
+BASICS:
+
+git init - creates a git setup in the current directory
+git status - check the status of the current project using git
+git add <filename> - add a single file to the commit
+git add . - adds ALL files to the commit
+git add *.html - only adds files with .html extensions
+
+ADDING FILETYPES TO IGNORE LIST:
+
+touch .gitignore - creates an ignore file in directory
+TYPE IN: *.log - inside .gitignore to ignore .log files
