@@ -19,3 +19,8 @@ git merge MyBranch - merges MyBranch to master branch !WHEN CURRENT DIR! is in m
 
 GIT MERGE CONFLICTS:
 git mergetool - tool used for fixing merge conflicts
+
+SAVING CHANGES IN A BRANCH WITH OUT COMMITING:
+git stash - if you change branches but not commit or stash(save) 
+	    your changes will automatically go to the next branch as unsaved changes
+git stash apply - reverts the saved state so you can continue working in that branch
