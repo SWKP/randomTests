@@ -8,5 +8,9 @@ git add *.html - only adds files with .html extensions
 
 ADDING FILETYPES TO IGNORE LIST:
 
-touch .gitignore - creates an ignore file in directory
+touch .gitignore - creates a new file (ignore file in directory)
 TYPE IN: *.log - inside .gitignore to ignore .log files
+
+GIT BRANCHING:
+git branch MyBranch - creates a seperate branch
+git checkout MyBranch - switches to MyBranch
