@@ -16,6 +16,9 @@ GIT BRANCHING:
 git branch MyBranch - creates a seperate branch
 git checkout MyBranch - switches to MyBranch
 git merge MyBranch - merges MyBranch to master branch !WHEN CURRENT DIR! is in master branch
+git branch - lists local banches
+git branch -a - lists all branches
+git branch -r - lists remote branches
 
 GIT MERGE CONFLICTS:
 git mergetool - tool used for fixing merge conflicts
@@ -24,3 +27,11 @@ SAVING CHANGES IN A BRANCH WITH OUT COMMITING:
 git stash - if you change branches but not commit or stash(save) 
 	    your changes will automatically go to the next branch as unsaved changes
 git stash apply - reverts the saved state so you can continue working in that branch
+
+REMOTE REPOSITORIES:
+git remote - check for any existing remote repositories
+git clone https://github.com/SWKP/randomTests.git - start a new repository folder
+git remote -v - show the remote repositoriy urls
+git fetch origin - manual merging of the online repo
+git pull origin - automatic merging from the remote branch
+git push origin master - push your local changes to the online repo
